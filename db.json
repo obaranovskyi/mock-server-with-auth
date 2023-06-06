@@ -1,6 +1,26 @@
 {
   "users": [
+    {
+      "username": "obaranovskyi",
+      "password": "$2b$10$2sctN.Kvnq64hDlU77dQ7.0820rDMrDmUlSVmaf6JYrDzHLRAJPWG",
+      "id": 1
+    }
   ],
   "todos": [
+    {
+      "description": "obaranovskyi",
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "description": "some desc",
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "description": "another",
+      "userId": 1,
+      "id": 3
+    }
   ]
 }

@@ -1,7 +1,8 @@
+read -p "Enter user id: " user_id
+read -p "Enter token: " token
+
 create_todo() {
   read -p "Enter description: " description
-  read -p "Enter user id: " user_id
-  read -p "Enter token: " token
 
   todo=$(curl -s -X POST http://localhost:3000/todos                        \
     -H 'Content-Type: application/json'                                     \
